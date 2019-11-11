@@ -8,7 +8,15 @@
             <button @click="usePlace">Add</button>
         </label> -->
 
-
+<!-- :options="{
+   zoomControl: true,//缩放控制
+   mapTypeControl: false,
+   scaleControl: false,//规模控制
+   streetViewControl: false,//街景控制
+   rotateControl: false,//旋转控制
+   fullscreenControl: true,//全屏控制
+   disableDefaultUi: false,//默认ui
+ }" -->
         <gmap-map
             :center="centers"
             :zoom="11"
